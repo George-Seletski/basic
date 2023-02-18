@@ -3,20 +3,18 @@
 body {
     overflow: hidden;
     background-color: #fcfcfc;
-    margin: 0;
-    padding: 0;
 }
 
 .flipbook-viewport {
     overflow: hidden;
-    width: 1000px;
+    width: 800px;
     height: 800px;
 }
 
 .flipbook-viewport .container {
     position: absolute;
-    padding: 47%;
-    margin: 150px 150px auto auto;
+    padding-left: 45%;
+    padding-top: 10%;
 }
 
 .flipbook-viewport .flipbook {
