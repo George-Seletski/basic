@@ -7,21 +7,23 @@ body {
 
 .magazine-viewport .container {
     position: absolute;
-    width: 1422px;
-    height: 900px;
-    margin: 33% 25% auto;
+    top: 50%;
+    left: 50%;
+    width: 922px;
+    height: 600px;
+    margin: auto;
 }
 
 .magazine-viewport .magazine {
-    width: 1422px;
-    height: 900px;
+    width: 922px;
+    height: 600px;
     left: -461px;
     top: -300px;
 }
 
 .magazine-viewport .page {
     width: 761px;
-    height: 450px;
+    height: 900px;
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
