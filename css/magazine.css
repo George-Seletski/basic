@@ -7,23 +7,22 @@ body {
 
 .magazine-viewport .container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 922px;
-    height: 600px;
-    margin: auto;
+    top: 32%;
+    width: 1422px;
+    height: 900px;
+    margin-left: 25%;
 }
 
 .magazine-viewport .magazine {
-    width: 922px;
-    height: 600px;
+    width: 1422px;
+    height: 900px;
     left: -461px;
     top: -300px;
 }
 
 .magazine-viewport .page {
-    width: 461px;
-    height: 600px;
+    width: 761px;
+    height: 450px;
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -94,7 +93,7 @@ body {
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button {
     width: 22px;
-    height: 600px;
+    height: 900px;
     position: absolute;
     top: 0;
 }
