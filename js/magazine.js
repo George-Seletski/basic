@@ -13,8 +13,8 @@ function addPage(page, book) {
     if (book.turn('addPage', element, page)) {
 
         // Add the initial HTML
-        // It will contain a loader indicator and a gradient
-        element.html('<div class="gradient"></div><div class="loader"></div>');
+
+        element.html('<div class="gradient"></div>');
 
         // Load the page
         loadPage(page, element);
