@@ -22,8 +22,8 @@ body {
 }
 
 .magazine-viewport .page {
-    width: 761px;
-    height: 900px;
+    width: 461px;
+    height: 600px;
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -90,7 +90,7 @@ body {
 .magazine-viewport .next-button,
 .magazine-viewport .previous-button {
     width: 22px;
-    height: 900px;
+    height: 600px;
     position: absolute;
     top: 0;
 }
