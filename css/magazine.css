@@ -15,14 +15,14 @@ body {
 }
 
 .magazine-viewport .magazine {
-    width: 1684px;
+    width: 842px;
     height: 550px;
-    left: -421px;
+    left: -842px;
     top: -300px;
 }
 
 .magazine-viewport .page {
-    width: 421px;
+    width: 842px;
     height: 550px;
     background-color: white;
     background-repeat: no-repeat;
