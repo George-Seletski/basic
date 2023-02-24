@@ -17,7 +17,7 @@ function addPage(page, book) {
         element.html('<div class="gradient"></div>');
 
         // Load the page
-        loadPage(page, element);
+        loadLargePage(page, element);
     }
 
 }
@@ -36,14 +36,6 @@ function loadPage(page, pageElement) {
 
         // Set the size
         $(this).css({ width: '100%', height: '100%' });
-
-        // Add the image to the page after loaded
-
-        $(this).appendTo(pageElement);
-
-        // Remove the loader indicator
-
-        pageElement.find('.loader').remove();
     });
 
     // Load the page
@@ -90,7 +82,7 @@ function loadLargePage(page, pageElement) {
 
     // Loadnew page
 
-    img.attr('src', 'pages/' + page + '-large.jpg');
+    img.attr('src', 'pages2/' + page + '-large.png');
 }
 
 // Load small page
